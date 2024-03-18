@@ -1,0 +1,23 @@
+site_name: robodev
+nav:
+  - Home: index.md
+  - ROS2 For Beginners: ros/index.md
+  - About: about.md
+theme:
+  name: readthedocs
+  favicon: favicon.ico
+  features:
+  - content.code.copy
+  - content.code.select
+  - content.code.annotate
+
+markdown_extensions:
+  - attr_list # allow to add HTML attributes and CSS classes
+  - md_in_html # allow to write Markdown inside HTML elements
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
