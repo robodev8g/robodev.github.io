@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://robodev8g.github.io/ros/</loc>
+         <loc>https://robodev8g.github.io/ros/linux/</loc>
+         <lastmod>2024-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://robodev8g.github.io/ros/ros_fundementals/</loc>
+         <lastmod>2024-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://robodev8g.github.io/ros/setup/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
