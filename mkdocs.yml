@@ -1,9 +1,9 @@
 site_name: robodev
 site_url: https://robodev8g.github.io/ # must have the trailing slash
-# nav:
-#   - Home: index.md
-#   - ROS2 For Beginners: ros/index.md
-#   - About: about.md
+nav:
+  - Home: index.md
+  - ROS2 For Beginners: ros/index.md
+  - About: about.md
 theme:
   name: material
   # favicon: favicon.ico
