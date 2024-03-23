@@ -1,49 +1,25 @@
-# ROS2 For Beginners
 
-## Install ROS2 and Setup Your Environment:
-I assume you have a virtual machine with Linux distribution on it (like Ubuntu).
-``` bash
-𝑠𝑢𝑑𝑜 𝑎𝑝𝑡 𝑢𝑝𝑑𝑎𝑡𝑒
-𝑠𝑢𝑑𝑜 𝑎𝑝𝑡 𝑢𝑝𝑔𝑟𝑎𝑑𝑒
-𝑠𝑢𝑑𝑜 𝑎𝑝𝑡 𝑎𝑢𝑡𝑜𝑟𝑒𝑚𝑜𝑣𝑒
-``` 
+# Start to use ROS2
 
-to make sure your system is up to date.
-
-### Terminator
-``` bash
-𝑠𝑢𝑑𝑜 𝑎𝑝𝑡 𝑖𝑛𝑠𝑡𝑎𝑙𝑙 𝑡𝑒𝑟𝑚𝑖𝑛𝑎𝑡𝑜𝑟
-```
-![](images/terminator_shortcuts.png)
+Before getting started, please follow the steps in [setup section](setup.md).
 
 
-### VS-code:
-Add three main extensions – C/C++, CMake, Python.
-Make sure you have python installed:
-```bash 
-𝑠𝑢𝑑𝑜 𝑎𝑝𝑡 𝑖𝑛𝑠𝑡𝑎𝑙𝑙 𝑝𝑦𝑡ℎ𝑜𝑛3−𝑝𝑖𝑝
-```
 
-NEW COMMAND: `𝑔𝑒𝑑𝑖𝑡` – opens files in a more comfortable user interface.
 
-For example: `𝑔𝑒𝑑𝑖𝑡 ~/.𝑏𝑎𝑠ℎ𝑟𝑐`.
+### Let your shell know about ROS:
 
-### ROS2:
-As of this writing the most current distribution of ROS2 is Humble Hawksbill.
+ROS installation folder is `/𝑜𝑝𝑡/𝑟𝑜𝑠/ℎ𝑢𝑚𝑏𝑙𝑒/𝑠𝑒𝑡𝑢𝑝.𝑏𝑎𝑠ℎ`.
+In order to use ROS you have to run: `𝑠𝑜𝑢𝑟𝑐𝑒 /𝑜𝑝𝑡/𝑟𝑜𝑠/ℎ𝑢𝑚𝑏𝑙𝑒/𝑠𝑒𝑡𝑢𝑝.𝑏𝑎𝑠ℎ`. It configures your shell so that it can find ROS programs and lets those programs find the required ROS packages. To avoid running this command again in any new terminal, add this command into `~/.𝑏𝑎𝑠ℎ𝑟𝑐`.
 
-Enter ROS2 Documentation: Humble and choose Ubuntu (Debian). Follow the steps there including Setup locale, Setup Sources, Install ROS2 packages. Then, run the desktop installation command line to have all the ROS2 tools.
-
-By the end of the previous part, you should have `/𝑜𝑝𝑡/𝑟𝑜𝑠/ℎ𝑢𝑚𝑏𝑙𝑒` directory.
-
-In order to use ROS2 you need to run: 𝑠𝑜𝑢𝑟𝑐𝑒 `/𝑜𝑝𝑡/𝑟𝑜𝑠/ℎ𝑢𝑚𝑏𝑙𝑒/𝑠𝑒𝑡𝑢𝑝.𝑏𝑎𝑠ℎ`. To avoid running this command again in any new terminal, add this command into `~/.𝑏𝑎𝑠ℎ𝑟𝑐`.
-
-``` bash title="NEW COMMAND"
+<!-- ``` bash
 𝑟𝑜𝑠2 𝑟𝑢𝑛 <𝑃𝐴𝐶𝐾𝐴𝐺𝐸_𝑁𝐴𝑀𝐸> <𝐸𝑋𝐸𝐶𝑈𝑇𝐴𝐵𝐿𝐸>
-```
+``` 
+Check the `𝑑𝑒𝑚𝑜_𝑛𝑜𝑑𝑒𝑠_𝑐𝑝𝑝` package for practice (talker, listener etc.). -->
 
 
-Check the `𝑑𝑒𝑚𝑜_𝑛𝑜𝑑𝑒𝑠_𝑐𝑝𝑝` package for practice (talker, listener etc.).
 
+
+<!-- 
 ## Write Your First ROS2 Program:
 
 ### Colcon:
@@ -144,3 +120,4 @@ def bubble_sort(items):
             if items[j] > items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
+ -->

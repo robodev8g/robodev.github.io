@@ -2,9 +2,12 @@ site_name: robodev
 site_url: https://robodev8g.github.io/ # must have the trailing slash
 nav:
   - Home: index.md
-  - ROS2: ros/index.md
+  - ROS2:
+    - Setup: ros/setup.md
+    - Create Worksapce: ros/ros_fundementals.md
+    
 theme:
-  name: material
+  name: lumen
   # favicon: favicon.ico
   # features:
   # - content.code.copy
